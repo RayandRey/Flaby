@@ -1,0 +1,170 @@
+.main__reviews{
+    background: url("../img/background/reviews.jpg") center no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 755px; 
+    text-align: center;
+
+    &--title{
+        font-family: 'Roboto Slab', serif;
+        font-weight: 500;
+        margin: 50px 0 0 0;
+
+        span{
+            color:#7c7c7c;
+            font-size: 18px;
+            font-weight: 500;
+            opacity: 0.4;
+        }
+
+        h1{
+            margin-top: 10px;
+            color:#494949;
+            font-size: 24px;
+            letter-spacing: 2.4px;
+
+            &:after{
+                content: "";
+                display: block;
+                margin: 22px auto 0;
+                width: 30px;
+                border-bottom: 2px solid #2eb0ec;
+            }
+        }
+    }
+
+    &__slider{
+        margin: 0 auto;
+        width: 730px;
+    }
+
+    &__block{
+        margin: 120px auto 40px;
+        width: 730px;
+        height: 350px;
+        background: #ffffff;
+        border: 1px solid #dee4e5;
+        border-radius: 10px;
+        position: relative;
+        box-shadow: 2px 7px 10px 2px #dee4e5;
+
+        &:focus{
+            outline: 0;
+        }   
+        
+        h3{
+            padding: 70px 0 8px;
+            font-size: 20px;
+            font-weight: 600;
+            color: #494949;
+        }
+
+        span{
+            font-size: 15px;
+            font-weight: 400;
+            color: #858585;
+        }
+    }
+
+    &--description{
+        padding: 40px 12% 60px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #7c7c7c;
+    }
+
+    &--avatar{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: -55px;
+        width: 110px;
+        height: 110px;
+        border: 1px solid #ffffff;
+        box-sizing: border-box;
+        border-radius: 50%;
+    }
+}
+
+.slider-arrow{
+    font-size: 18px;
+    font-weight: 700;
+    opacity: 0.3;
+    margin: 0 7px;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    outline: 0;
+    position: relative;
+
+    &:hover{
+        opacity: 1;
+    }
+
+}
+
+
+
+@media (max-width: 768px){
+    .main__reviews{
+
+        &__slider{
+            margin: 0 auto;
+            width: 90%;
+        }
+    
+        &__block{
+            margin: 120px auto 40px;
+            width: 90%;
+            height: 350px;
+            
+            h3{
+                padding: 60px 0 8px;
+                font-size: 18px;
+            }
+    
+            span{
+                font-size: 14px;
+            }
+        }
+    
+        &--description{
+            padding: 25px 8% 40px;
+            font-size: 16px;
+        }
+    
+    }
+}
+
+
+@media (max-width: 480px){
+    .main__reviews{
+
+        &--title{
+            margin: 50px 0 50px 0;
+        }
+
+        &__slider{
+            width: 100%;
+        }
+
+        &__block{
+            margin: 60px auto 10px;
+            width: 100%;
+
+            h3{
+                padding: 60px 0 8px;
+                font-size: 17px;
+            }
+    
+            span{
+                font-size: 13px;
+            }
+        }
+    
+        &--description{
+            font-size: 13px;
+        }
+    }
+}

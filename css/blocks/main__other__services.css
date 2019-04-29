@@ -1,0 +1,75 @@
+.main__other__services {
+  text-align: center;
+  margin-top: 55px; }
+  .main__other__services--title {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    margin-bottom: 90px; }
+    .main__other__services--title span {
+      color: #7c7c7c;
+      font-size: 18px;
+      font-weight: 500; }
+    .main__other__services--title h1 {
+      margin-top: 10px;
+      color: #494949;
+      font-size: 24px;
+      letter-spacing: 2.4px; }
+      .main__other__services--title h1:after {
+        content: "";
+        display: block;
+        margin: 22px auto 0;
+        width: 30px;
+        border-bottom: 2px solid #2eb0ec; }
+  .main__other__services--list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-bottom: 120px; }
+  .main__other__services--item {
+    margin-bottom: 90px;
+    -webkit-transition: 0.3s ease-in;
+    -o-transition: 0.3s ease-in;
+    transition: 0.3s ease-in; }
+    .main__other__services--item:hover {
+      -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2); }
+  .main__other__services--name {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 12px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #494949; }
+    .main__other__services--name img {
+      margin-right: 22px; }
+  .main__other__services--description {
+    width: 280px;
+    margin-left: 65px;
+    text-align: left;
+    color: #8d8d8d;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.8; }
+
+.imb-block {
+  width: 65px;
+  height: 52px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }

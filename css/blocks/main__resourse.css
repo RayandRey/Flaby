@@ -1,0 +1,37 @@
+.main__resourse--content {
+  margin-top: 160px;
+  margin-bottom: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.main__resourse__text {
+  margin-right: 120px; }
+  .main__resourse__text span {
+    font-size: 22px;
+    font-weight: 500;
+    color: #b6b6b6; }
+  .main__resourse__text h1 {
+    color: #494949;
+    font-size: 32px;
+    font-weight: 600;
+    margin: 21px 0 23px 0; }
+
+.main__resourse--first--description {
+  color: #7c7c7c;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.6;
+  margin-bottom: 32px; }
+
+.main__resourse--second--description {
+  font-size: 14px;
+  font-weight: 500;
+  color: #7c7c7c;
+  line-height: 1.8; }

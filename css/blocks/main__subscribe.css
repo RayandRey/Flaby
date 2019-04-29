@@ -1,0 +1,22 @@
+.main__subscribe {
+  text-align: center; }
+  .main__subscribe--title {
+    margin-top: 68px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500; }
+    .main__subscribe--title span {
+      color: #7c7c7c;
+      font-size: 18px;
+      font-weight: 500;
+      opacity: 0.4; }
+    .main__subscribe--title h1 {
+      margin-top: 10px;
+      color: #494949;
+      font-size: 24px;
+      letter-spacing: 2.4px; }
+      .main__subscribe--title h1:after {
+        content: "";
+        display: block;
+        margin: 22px auto 0;
+        width: 30px;
+        border-bottom: 2px solid #2eb0ec; }

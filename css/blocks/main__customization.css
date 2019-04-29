@@ -1,0 +1,27 @@
+.main__customization {
+  background: url("../img/background/customization.jpg") center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  height: 780px; }
+  .main__customization__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 118px; }
+  .main__customization__left {
+    margin: 0 150px 0 -245px; }
+  .main__customization__right {
+    margin-top: 20px; }
+  .main__customization span {
+    font-size: 22px;
+    font-weight: 500;
+    color: #b3b4b4;
+    opacity: 0.4; }
+  .main__customization h1 {
+    color: #494949;
+    font-size: 32px;
+    font-weight: 500;
+    margin: 17px 0 27px 0; }

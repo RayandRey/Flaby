@@ -1,0 +1,51 @@
+.main__title {
+  background: url("../img/background/title.jpg") center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  height: 1040px;
+  margin-top: -137px; }
+  .main__title--container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 361px;
+    color: #ffffff; }
+  .main__title__left {
+    margin-top: 142px; }
+  .main__title--brend {
+    margin-bottom: 44px; }
+    .main__title--brend h1 {
+      font-family: 'Roboto Slab', serif;
+      font-size: 40px;
+      font-weight: 500;
+      letter-spacing: 3px; }
+  .main__title--description {
+    width: 510px;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 1.54;
+    margin-bottom: 100px; }
+  .main__title__button {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 33px 67px;
+    background-color: #4894ce;
+    color: #ffffff;
+    margin-right: 30px;
+    border-radius: 10px; }
+  .main__title__google {
+    background-color: #ffffff;
+    color: #3e3e3e;
+    padding: 33px 36px 33px 81px;
+    position: relative;
+    -webkit-box-shadow: 0px 8px 11px 0 rgba(54, 54, 54, 0.15);
+    box-shadow: 0px 8px 11px 0 rgba(54, 54, 54, 0.15); }
+    .main__title__google img {
+      padding-right: 20px;
+      position: absolute;
+      top: 30px;
+      left: 35px; }

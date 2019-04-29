@@ -1,0 +1,225 @@
+.main__title{
+    background: url("../img/background/title.jpg") center no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    max-height: 1050px;
+    margin-top: -137px;
+
+    &__content{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 190px;
+        color:#ffffff;
+    }
+
+    &__left{
+        margin-top: 142px;
+    }
+
+    &--brend{
+        margin-bottom: 44px;
+
+        h1{
+            font-family: 'Roboto Slab', serif;
+            font-size: 40px;
+            font-weight: 500;
+            letter-spacing: 3px;
+        }
+    }
+
+    &--description{
+        width: 510px;
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 1.54;
+        margin-bottom: 100px;    
+    }
+
+    &__button{
+        text-decoration: none;  
+        font-size: 20px;
+        font-weight: 600;
+        padding: 33px 67px;
+        background-color: #4894ce;
+        color: #ffffff;
+        margin-right: 30px;
+        border-radius: 10px;
+
+        &:hover{
+            background: $gradient;
+        }
+    }
+    
+    &__google{
+        background-color: #ffffff;
+        color: #3e3e3e;
+        padding: 33px 36px 33px 81px;
+        position: relative;
+        box-shadow: 0px 8px 11px 0 rgba(54, 54, 54, 0.15);
+
+        img{
+            padding-right:20px;
+            position: absolute;
+            top:30px;
+            left: 24%;
+            transform: translateX(-50%);
+        }
+    }
+
+    &__right{
+        max-width: 500px;
+        max-height: 680px;
+        margin-left: 130px;
+        overflow: hidden;
+    }
+}
+
+
+
+@media (max-width: 1030px) {
+    .main__title{
+
+        &__content{
+            flex-direction: row-reverse;
+            margin-top: 190px;
+        }
+
+        &__right{
+            margin-left: -150px;
+        }
+
+        &__left{
+            margin-top: 100px;
+            width: 50%;
+        }
+    
+        &--brend{
+            h1{
+                font-family: 'Roboto Slab', serif;
+                font-size: 34px;
+                letter-spacing: 2px;
+            }
+        }
+    
+        &--description{
+            width: 100%;
+            font-size: 22px;   
+        }
+
+        &__button{
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            text-decoration: none;  
+            padding: 20px 20px;
+            margin: 20px 0;
+        }
+
+        &__google{
+            padding: 20px 20px 20px 20px;
+
+            img{
+                top: 15px;
+            }
+        }
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    
+    .main__title{
+        text-align: center;
+        
+        &__content{
+            margin: 160px 0 110px;
+            flex-direction: column-reverse;
+            justify-content: flex-start;
+        }
+
+        &__left{
+            margin: 30px auto 0;
+            width: 100%;
+            
+        }
+
+        &--brend{
+            margin-bottom: 20px;
+    
+            h1{
+                font-size: 30px;
+                font-weight: 500;
+            }
+        }
+    
+        &--description{
+            font-size: 20px;
+            font-weight: 400;
+            margin-bottom: 20px;    
+        }
+
+        &__right{
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            img{
+                width: 60%;
+            }
+        }
+
+        &__button{
+            width: 60%;  
+            padding: 20px 20px;
+            margin: 20px auto;
+        }
+
+    } 
+}
+
+
+@media (max-width: 500px){
+    .main__title{
+
+        &__content{
+            margin: 200px 0 80px;
+            flex-direction: column-reverse;
+            justify-content: flex-start;
+        }
+
+        &--brend{
+            h1{
+                font-size: 28px;
+                font-weight: 500;
+            }
+        }
+    
+        &--description{
+            width: 100%;
+            font-size: 16px;
+            font-weight: 400;
+            margin-bottom: 30px;    
+        }
+
+        &__button{
+            width: 90%;
+            font-size: 16px;
+        }
+
+        &__google{
+            img{
+                left: 18%;
+                transform: translateX(-50%);
+            }
+        }
+
+        &__right{
+
+            img{
+                width: 50%;
+            }
+        }
+    }
+}
